@@ -1,0 +1,31 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+.navbar{
+    background-color: #1D232C;;
+}
+.desc{
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    gap: 5;
+}
+.inputbox{
+    width: 100%;
+    border: #1D232C solid 2px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 15px;
+    
+}
+.footer{
+    background-color: rgb(30, 30, 45);
+}
+.arrow{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}

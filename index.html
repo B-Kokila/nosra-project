@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosta</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style.css">
+    <link href="
+    https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
+    " rel="stylesheet">
+</head>
+
+<body>
+    <div class="Nostra">
+        <!-- navbar -->
+        <div class="navbar flex items-center justify-center  bg-blue-950 ">
+            <p class="text-white text-center  p-3">Sign Up and <b>GET 20%</b> OFF for your first Order</p>
+            <p id="xclose" class="text-white pl-10 cursor-pointer">X</p>
+        </div>
+        <!-- header -->
+        <div class="header flex justify-between items-center pl-5  pr-5">
+            <h1 class="text-4xl pl-15 font-bold p-7 bg-blue-950">Nostra</h1>
+            <svg id="menuicon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5 "
+                    class="md:hidden" />
+            </svg>
+
+
+            <ul class="list1 text-xl flex gap-8 cursor-pointer hidden md:flex">
+                <li class="hover:underline hover:to-black">Home</li>
+                <li class="hover:underline hover:to-black">New Arrival</li>
+                <li class="hover:underline hover:to-black"><a href="most.html">Most Wanted</a></li>
+                <li class="hover:underline hover:to-black">Collections</li>
+                <li class="hover:underline hover:to-black"> <a href="contact.html">Contact Us</a></li>
+            </ul>
+
+
+        </div>
+        <!-- sidenav -->
+        <div id="sidenav" class=" bg-gray-800 top-0  fixed  z-10 md:hidden" style="height: 100vh; width: 50%;right: -50%;">
+            <div id="closenav">
+                <p class="text-white inline cursor-pointer flex justify-end p-2">X</p>
+            </div>
+            <ul class="list1 text-xl text-white flex flex-col items-center gap-8 cursor-pointer ">
+                <li class="hover:underline hover:to-black">Home</li>
+                <li class="hover:underline hover:to-black">New Arrival</li>
+                <li class="hover:underline hover:to-black"><a href="most.html">Most Wanted</a></li>
+                <li class="hover:underline hover:to-black"> <a href="most.html"></a>Collections</li>
+                <li class="hover:underline hover:to-black"> <a href="contact.html">Contact Us</a></li>
+            </ul>
+            
+        </div>
+        <!-- Homepage -->
+        <div class="h-[50vh] w-full relative items-center flex justify-center pt-5 pb-5 object-cover">
+            <img src="images/slider-one.jpg" alt="">
+            <div class="absolute text-white items-center  ">
+                <h1 class="text-4xl text-white font-extrabold">Level up your style with our</h1>
+                <h4 class="">Summer Collections</h4>
+                <button class="bg-white text-black font-bold mt-2 rounded-lg p-2">Shop Now</button>
+            </div>
+            <div class=" arrow absolute  bg-transparent text-white object-cover flex  justify-between">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 font-extrabold text-4xl h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5 " />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                </svg>
+
+
+            </div>
+
+        </div>
+        <!-- Brands -->
+        <div id="brands">
+            <h1 class="text-2xl font-bold mt-5 pl-9">Brands</h1>
+            <div class="flex  w-full gap-10 mt-5 justify-around ">
+                <div class="list1 w-20 ">
+                    <ul class="">
+                        <li><img src="images/puma.png" alt=""></li>
+                        <p class=" font-semibold pl-2">Puma</p>
+                    </ul>
+                </div>
+                <div class="list2 w-20">
+                    <ul>
+                        <li><img src="images/adidas.png" alt=""></li>
+                        <p class=" font-semibold pl-2">Adidas</p>
+                    </ul>
+                </div>
+                <div class="list3 w-20">
+                    <ul>
+                        <li><img src="images/simple.png" alt=""></li>
+                        <p class=" font-semibold pl-2">Simple</p>
+                    </ul>
+                </div>
+                <div class="list4 w-20">
+                    <ul>
+                        <li><img src="images/leaves.png" alt=""></li>
+                        <p class=" font-semibold pl-2">Leaves</p>
+                    </ul>
+                </div>
+                <div class="list5 w-20">
+                    <ul>
+                        <li><img src="images/behance.png" alt=""></li>
+                        <p class=" font-semibold pl-2">Behance</p>
+                    </ul>
+                </div>
+                <div class="list6 w-20">
+                    <ul>
+                        <li><img src="images/leaves (1).png" alt=""></li>
+                        <p class=" font-semibold pl-2">Leaves</p>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- desc -->
+        <div class="m-15 pt-20  flex justify-between items-center">
+            <h2 class="font-bold text-3xl pl-10">We Provide Best <br>
+                Customer Experiences</h2>
+            <p class="text-xl pr-8 "> || We ensure that our customer have the best shopping experience</p>
+        </div>
+        <div class="desc bg-gray-100 flex gap-5 mt-20   m-5 justify-around p-5">
+            <div class="p-5 ">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round "
+                        d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                </svg>
+
+                <p class="font-bold text-xl">Original Products <br></p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, consequuntur.</p>
+            </div>
+            <div class="p-5  g-2">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M15.182 15.182a4.5 4.5 0 0 1-6.364 0M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Z" />
+                </svg>
+                <p class="font-bold text-xl">Satisfication Guarantee <br></p>
+                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, consequuntur.</p>
+
+            </div>
+            <div class="p-5">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M9.53 16.122a3 3 0 0 0-5.78 1.128 2.25 2.25 0 0 1-2.4 2.245 4.5 4.5 0 0 0 8.4-2.245c0-.399-.078-.78-.22-1.128Zm0 0a15.998 15.998 0 0 0 3.388-1.62m-5.043-.025a15.994 15.994 0 0 1 1.622-3.395m3.42 3.42a15.995 15.995 0 0 0 4.764-4.648l3.876-5.814a1.151 1.151 0 0 0-1.597-1.597L14.146 6.32a15.996 15.996 0 0 0-4.649 4.763m3.42 3.42a6.776 6.776 0 0 0-3.42-3.42" />
+                </svg>
+
+                <p class="font-bold text-xl">New Arrival Everyday<br></p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, consequuntur.</p>
+            </div>
+            <div class="p-5">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d=" M8.25 18.75a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 0 1-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 0 0-3.213-9.193 2.056 2.056 0 0 0-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 0 0-10.026 0 1.106 1.106 0 0 0-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12" />
+                </svg>
+                <p class="font-bold text-xl">Fast & Free shipping<br></p>
+                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, consequuntur.</p>
+
+            </div>
+        </div>
+        <!-- New Arrivals -->
+        <div class="p-10">
+            <h2 class="text-3xl font-bold">New Arrivals</h2>
+            <div class="  grid grid-cols-2 md:grid-cols-4 gap-5 pb-5  align-middle m-5 pt-3 " >
+                <div class="text-center relative ">
+                    <img src="images/t1.png" alt="">
+                    <div class="absolute items-center bottom-0 pl-14 text-center top-52">
+                          <button class="bg-white text-center  p-2 font-semibold  flex items-center gap-1 ">Shop Now <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                          </svg>
+                          </button>
+                    </div>
+                </div>
+                <div class="text-center relative">
+                    <img src="images/t2.png" alt="">
+                    <div class="absolute items-center bottom-0 pl-14 text-center top-52">
+                        <button class="bg-white text-center  p-2 font-semibold  flex items-center gap-1 ">Shop Now <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                          </svg>
+                          </button>
+                  </div>
+                </div>
+                <div class="text-center relative">
+                    <img src="images/t3.png" alt="">
+                    <div class="absolute items-center bottom-0 pl-14 text-center top-52">
+                        <button class="bg-white text-center  p-2 font-semibold flex items-center gap-1 ">Shop Now<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                          </svg>
+                          </button>
+                  </div>
+                </div>
+                <div class="text-center relative">
+                    <img src="images/t4.png" alt="">
+                    <div class="absolute items-center bottom-0 pl-14 text-center top-52">
+                        <button class="bg-white text-center p-2 font-semibold  flex items-center gap-1 ">Shop Now <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                          </svg>
+                          </button>
+                  </div>
+                </div>
+            </div>
+            <!-- Most wanted -->
+        <div class="p-10">
+            <h2 class="text-3xl font-bold">New Arrivals</h2>
+            <div class="  grid grid-cols-2 md:grid-cols-4 gap-10 pb-5  align-middle m-5 pt-3 " >
+                <div class="text-center relative ">
+                    <img src="images/t1.png" alt="">
+                    <div class="absolute items-center top-0  text-center ">
+                          <button class="bg-red-500 text-center  p-2 font-semibold   gap-1   ">Sale 
+                          </button>
+                    </div>
+                </div>
+                <div class="text-center relative">
+                    <img src="images/t2.png" alt="">
+                    <div class="absolute items-center top-0  text-center ">
+                        <button class="bg-red-500 text-center  p-2 font-semibold   gap-1   ">Sale 
+                        </button>
+                  </div>
+                </div>
+                <div class="text-center relative">
+                    <img src="images/t3.png" alt="">
+                    <div class="absolute items-center top-0  text-center ">
+                        <button class="bg-red-500 text-center  p-2 font-semibold   gap-1   ">Sale 
+                        </button>
+                  </div>
+                </div>
+                <div class="text-center relative">
+                    <img src="images/t4.png" alt="">
+                    <div class="absolute items-center top-0  text-center ">
+                        <button class="bg-red-500 text-center  p-2 font-semibold   gap-1   ">Sale 
+                        </button>
+                  </div>
+                </div>
+            </div>
+            <!-- ad -->
+            <div class="bg-gray-800 p-5 mt-5 flex items-center justify-between">
+                <div class="p-5 pt-5">
+                    <img src="images/offer.jpg" alt="">
+                </div>
+                <div class="pr-10">
+                    <h2 class="text-white text-3xl ">Limited Offer </h2> 
+                        <h3 class="text-white">35% OFF on this for the first 30 Customers</h3>
+                        <button class="bg-white text-center  p-2 mt-4 font-semibold rounded-xl flex items-center gap-1 ">Shop Now <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                          </svg>
+                          </button>
+                       
+                </div>
+            </div>
+            <!-- join letter -->
+            <div class="m-5 p-5 items-center justify-center text-center">
+                <h1 class="text-4xl font-bold">Join our News Letter</h1>
+                <p class="text-xl font-medium p-1 ">Signup for our email newspaper to get exclusive discounts, updates, and more</p>
+               <div class="inputbox border-black mt-3 ">
+                <input type="text" name="search" id="">
+               </div> 
+              <div class=" p-5 mt-5 text-center flex justify-center"> <button class="flex rounded-md bg-gray-800 text-white p-3 font-bold text-xl items-center gap-2 ">subscribe <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m12.75 15 3-3m0 0-3-3m3 3h-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+              </svg>
+              </button></div>
+            </div>
+            <!-- footer -->
+            <div class="footer text-white p-10 mt-10">
+                <h1 class="font-bold text-4xl">Nostra</h1>
+                <p class="text-xl font-semibold pt-3">The Standard chunk of Lorem ipsum used since the 1500s is reprodused below for those interest</p>
+                <div class="w-8 flex gap-5 bg-white mt-4">
+                   <img src="images/insta.webp" alt="">
+                   <img src="images/03-twitter-128.webp" alt="" class="bg-white">
+                   <img src="images/Facebook-128.webp" alt="" class="bg-white">
+                </div>
+                <h3 class="pt-5 text-xl">@ 2023 Nostra.com</h3>
+            </div>
+
+
+            
+
+
+
+        </div>
+        <script src="sidenav.js"></script>
+</body>
+
+</html>
